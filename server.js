@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost:5173", // local dev (Vite)
+  "http://localhost:8080", // local dev (Vite)
   "https://emiliatrustfrontend.onrender.com" // production frontend
 ];
 
